@@ -54,4 +54,4 @@ The browser automation file chooser was slow during QA. HTTP integration tests i
 - SARIF output is structured as 2.1.0; acceptance by every third-party security platform has not been established.
 - Priority thresholds have not been calibrated against operational loss or remediation outcomes.
 - Declared paths are not code reachability, and fixed candidates are not compatibility-tested upgrades.
-- GitHub-hosted CI results are separate from local validation and should be inspected for each commit.
+- GitHub-hosted CI results are separate from local validation and should be inspected for each commit. The initial clean-checkout run caught missing demo-asset staging in the test command; the command was corrected to prepare those assets before running tests.

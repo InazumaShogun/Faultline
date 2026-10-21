@@ -11,7 +11,7 @@
     "build": "tsc && node scripts/build.mjs",
     "start": "node dist/src/server.js",
     "dev": "npm run build && npm start",
-    "test": "tsc && node --test dist/test/*.test.js",
+    "test": "tsc && node scripts/build.mjs && node --test dist/test/*.test.js",
     "check": "tsc --noEmit",
     "demo": "node dist/src/cli.js analyze examples/harbor.cdx.json --evidence examples/demo-evidence.json",
     "cli": "node dist/src/cli.js"
