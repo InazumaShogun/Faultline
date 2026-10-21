@@ -22,6 +22,10 @@ npm ci && npm run build && npm start
 
 Open **http://127.0.0.1:4317**. A clearly labeled, offline demonstration opens immediately. No outbound intelligence calls happen until you opt in. Windows users can run `start.cmd`; macOS/Linux users can run `sh start.sh`.
 
+The Windows launcher opens your default browser once the app is ready. If Faultline is already running, it reuses that instance. If another application occupies the default port, it selects a free local port and prints the actual address. Startup errors remain visible in the launcher window.
+
+Extract the **entire ZIP** before running `start.cmd`; opening it directly inside the compressed folder can leave the rest of the project unavailable. Keep the server window open while using Faultline. If startup fails, copy the error shown above the pause prompt. An explicit `PORT` setting is respected; clear it or choose another value if that port is occupied by a different application.
+
 The downloadable prebuilt package includes `dist/`, so only Node.js is needed to run it. A source checkout builds with `npm ci` and `npm run build`.
 
 ### Or use Docker

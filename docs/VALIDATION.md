@@ -23,6 +23,10 @@ The initial suite contains 21 passing tests. It covers:
 
 TypeScript strict checks and the production build pass. The development install reported zero known vulnerabilities at initial installation. There are no runtime package dependencies.
 
+### Windows startup follow-up
+
+Launching a second copy while Faultline already occupied port 4317 reproduced an `EADDRINUSE` failure; the original batch file immediately closed and hid the error. The updated launcher verifies and reuses an existing Faultline instance, opens its browser address, selects a free fallback port when another application occupies the default, and preserves failures at a pause prompt. Four additional launcher tests cover reuse, another service's port, invalid configuration and incomplete ZIP extraction. Windows-specific batch checks are skipped on other platforms.
+
 ## Live-provider check
 
 An explicit live query used only the public synthetic sample's package/version strings. On **2026-10-21 at 13:47 UTC**, the run returned:
