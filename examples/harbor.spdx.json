@@ -1,0 +1,326 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "harbor-gateway-spdx",
+  "documentDescribes": [
+    "SPDXRef-harbor"
+  ],
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-harbor",
+      "name": "harbor-gateway",
+      "versionInfo": "3.8.0"
+    },
+    {
+      "SPDXID": "SPDXRef-spring-webmvc",
+      "name": "spring-webmvc",
+      "versionInfo": "5.3.17",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.springframework/spring-webmvc@5.3.17"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-spring-core",
+      "name": "spring-core",
+      "versionInfo": "5.3.17",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.springframework/spring-core@5.3.17"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-spring-beans",
+      "name": "spring-beans",
+      "versionInfo": "5.3.17",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.springframework/spring-beans@5.3.17"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-spring-context",
+      "name": "spring-context",
+      "versionInfo": "5.3.17",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.springframework/spring-context@5.3.17"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-log4j-core",
+      "name": "log4j-core",
+      "versionInfo": "2.14.1",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.apache.logging.log4j/log4j-core@2.14.1"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-log4j-api",
+      "name": "log4j-api",
+      "versionInfo": "2.14.1",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.apache.logging.log4j/log4j-api@2.14.1"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-jackson-databind",
+      "name": "jackson-databind",
+      "versionInfo": "2.13.1",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.13.1"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-jackson-core",
+      "name": "jackson-core",
+      "versionInfo": "2.13.1",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.13.1"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-jackson-annotations",
+      "name": "jackson-annotations",
+      "versionInfo": "2.13.1",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.13.1"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-jackson-dataformat-yaml",
+      "name": "jackson-dataformat-yaml",
+      "versionInfo": "2.13.1",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.fasterxml.jackson.dataformat/jackson-dataformat-yaml@2.13.1"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-snakeyaml",
+      "name": "snakeyaml",
+      "versionInfo": "1.30",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.yaml/snakeyaml@1.30"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-commons-text",
+      "name": "commons-text",
+      "versionInfo": "1.9",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.apache.commons/commons-text@1.9"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-commons-lang3",
+      "name": "commons-lang3",
+      "versionInfo": "3.12.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.apache.commons/commons-lang3@3.12.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-slf4j-api",
+      "name": "slf4j-api",
+      "versionInfo": "1.7.36",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.slf4j/slf4j-api@1.7.36"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-jakarta.servlet-api",
+      "name": "jakarta.servlet-api",
+      "versionInfo": "4.0.4",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/jakarta.servlet/jakarta.servlet-api@4.0.4"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-httpclient5",
+      "name": "httpclient5",
+      "versionInfo": "5.1.3",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.apache.httpcomponents.client5/httpclient5@5.1.3"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-httpcore5",
+      "name": "httpcore5",
+      "versionInfo": "5.1.3",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.apache.httpcomponents.core5/httpcore5@5.1.3"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-harbor",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-spring-webmvc"
+    },
+    {
+      "spdxElementId": "SPDXRef-harbor",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-log4j-core"
+    },
+    {
+      "spdxElementId": "SPDXRef-harbor",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-jackson-databind"
+    },
+    {
+      "spdxElementId": "SPDXRef-harbor",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-jackson-dataformat-yaml"
+    },
+    {
+      "spdxElementId": "SPDXRef-harbor",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-commons-text"
+    },
+    {
+      "spdxElementId": "SPDXRef-harbor",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-httpclient5"
+    },
+    {
+      "spdxElementId": "SPDXRef-spring-webmvc",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-spring-core"
+    },
+    {
+      "spdxElementId": "SPDXRef-spring-webmvc",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-spring-beans"
+    },
+    {
+      "spdxElementId": "SPDXRef-spring-webmvc",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-spring-context"
+    },
+    {
+      "spdxElementId": "SPDXRef-spring-webmvc",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-jakarta.servlet-api"
+    },
+    {
+      "spdxElementId": "SPDXRef-spring-context",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-spring-core"
+    },
+    {
+      "spdxElementId": "SPDXRef-spring-context",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-spring-beans"
+    },
+    {
+      "spdxElementId": "SPDXRef-spring-beans",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-spring-core"
+    },
+    {
+      "spdxElementId": "SPDXRef-log4j-core",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-log4j-api"
+    },
+    {
+      "spdxElementId": "SPDXRef-jackson-databind",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-jackson-core"
+    },
+    {
+      "spdxElementId": "SPDXRef-jackson-databind",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-jackson-annotations"
+    },
+    {
+      "spdxElementId": "SPDXRef-jackson-dataformat-yaml",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-jackson-databind"
+    },
+    {
+      "spdxElementId": "SPDXRef-jackson-dataformat-yaml",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-snakeyaml"
+    },
+    {
+      "spdxElementId": "SPDXRef-commons-text",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-commons-lang3"
+    },
+    {
+      "spdxElementId": "SPDXRef-httpclient5",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-httpcore5"
+    },
+    {
+      "spdxElementId": "SPDXRef-httpclient5",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-slf4j-api"
+    }
+  ]
+}

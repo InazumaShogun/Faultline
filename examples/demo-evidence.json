@@ -1,0 +1,323 @@
+{
+  "schema": "faultline.evidence/v1",
+  "mode": "demo",
+  "acquiredAt": "2025-01-15T12:00:00Z",
+  "queries": [
+    {
+      "purl": "pkg:maven/org.springframework/spring-webmvc@5.3.17",
+      "ids": [],
+      "status": "ok"
+    },
+    {
+      "purl": "pkg:maven/org.springframework/spring-core@5.3.17",
+      "ids": [
+        "CVE-2022-22965"
+      ],
+      "status": "ok"
+    },
+    {
+      "purl": "pkg:maven/org.springframework/spring-beans@5.3.17",
+      "ids": [],
+      "status": "ok"
+    },
+    {
+      "purl": "pkg:maven/org.springframework/spring-context@5.3.17",
+      "ids": [],
+      "status": "ok"
+    },
+    {
+      "purl": "pkg:maven/org.apache.logging.log4j/log4j-core@2.14.1",
+      "ids": [
+        "CVE-2021-44228",
+        "CVE-2021-45046"
+      ],
+      "status": "ok"
+    },
+    {
+      "purl": "pkg:maven/org.apache.logging.log4j/log4j-api@2.14.1",
+      "ids": [],
+      "status": "ok"
+    },
+    {
+      "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.13.1",
+      "ids": [
+        "CVE-2020-36518"
+      ],
+      "status": "ok"
+    },
+    {
+      "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.13.1",
+      "ids": [],
+      "status": "ok"
+    },
+    {
+      "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.13.1",
+      "ids": [],
+      "status": "ok"
+    },
+    {
+      "purl": "pkg:maven/com.fasterxml.jackson.dataformat/jackson-dataformat-yaml@2.13.1",
+      "ids": [],
+      "status": "ok"
+    },
+    {
+      "purl": "pkg:maven/org.yaml/snakeyaml@1.30",
+      "ids": [
+        "CVE-2022-1471"
+      ],
+      "status": "ok"
+    },
+    {
+      "purl": "pkg:maven/org.apache.commons/commons-text@1.9",
+      "ids": [
+        "CVE-2022-42889"
+      ],
+      "status": "ok"
+    },
+    {
+      "purl": "pkg:maven/org.apache.commons/commons-lang3@3.12.0",
+      "ids": [],
+      "status": "ok"
+    },
+    {
+      "purl": "pkg:maven/org.slf4j/slf4j-api@1.7.36",
+      "ids": [],
+      "status": "ok"
+    },
+    {
+      "purl": "pkg:maven/jakarta.servlet/jakarta.servlet-api@4.0.4",
+      "ids": [],
+      "status": "ok"
+    },
+    {
+      "purl": "pkg:maven/org.apache.httpcomponents.client5/httpclient5@5.1.3",
+      "ids": [],
+      "status": "ok"
+    },
+    {
+      "purl": "pkg:maven/org.apache.httpcomponents.core5/httpcore5@5.1.3",
+      "ids": [],
+      "status": "ok"
+    }
+  ],
+  "advisories": [
+    {
+      "id": "CVE-2021-44228",
+      "aliases": [],
+      "summary": "JNDI lookup injection in Log4j",
+      "details": "Historical advisory selected for the Faultline demonstration. Applicability depends on configuration and deployment conditions. Consult the original advisory before changing a production system. Fixed versions are historical range endpoints; they are not assurances that those versions are currently free of other vulnerabilities.",
+      "modified": "2024-01-01T00:00:00Z",
+      "withdrawn": null,
+      "severity": "CRITICAL",
+      "cvss": 10.0,
+      "affected": [
+        {
+          "purl": "pkg:maven/org.apache.logging.log4j/log4j-core",
+          "name": "org.apache.logging.log4j:log4j-core",
+          "ecosystem": "Maven",
+          "fixed": [
+            "2.15.0",
+            "2.12.2",
+            "2.3.1"
+          ]
+        }
+      ],
+      "references": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2021-44228",
+        "https://osv.dev/vulnerability/CVE-2021-44228"
+      ]
+    },
+    {
+      "id": "CVE-2021-45046",
+      "aliases": [],
+      "summary": "Incomplete protection for message lookups in Log4j",
+      "details": "Historical advisory selected for the Faultline demonstration. Applicability depends on configuration and deployment conditions. Consult the original advisory before changing a production system. Fixed versions are historical range endpoints; they are not assurances that those versions are currently free of other vulnerabilities.",
+      "modified": "2024-01-01T00:00:00Z",
+      "withdrawn": null,
+      "severity": "CRITICAL",
+      "cvss": 9.0,
+      "affected": [
+        {
+          "purl": "pkg:maven/org.apache.logging.log4j/log4j-core",
+          "name": "org.apache.logging.log4j:log4j-core",
+          "ecosystem": "Maven",
+          "fixed": [
+            "2.16.0",
+            "2.12.2",
+            "2.3.1"
+          ]
+        }
+      ],
+      "references": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2021-45046",
+        "https://osv.dev/vulnerability/CVE-2021-45046"
+      ]
+    },
+    {
+      "id": "CVE-2022-22965",
+      "aliases": [],
+      "summary": "Data binding can permit remote code execution under specific deployment conditions",
+      "details": "Historical advisory selected for the Faultline demonstration. Applicability depends on configuration and deployment conditions. Consult the original advisory before changing a production system. Fixed versions are historical range endpoints; they are not assurances that those versions are currently free of other vulnerabilities.",
+      "modified": "2024-01-01T00:00:00Z",
+      "withdrawn": null,
+      "severity": "CRITICAL",
+      "cvss": 9.8,
+      "affected": [
+        {
+          "purl": "pkg:maven/org.springframework/spring-core",
+          "name": "org.springframework:spring-core",
+          "ecosystem": "Maven",
+          "fixed": [
+            "5.3.18",
+            "5.2.20"
+          ]
+        }
+      ],
+      "references": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2022-22965",
+        "https://osv.dev/vulnerability/CVE-2022-22965"
+      ]
+    },
+    {
+      "id": "CVE-2022-42889",
+      "aliases": [],
+      "summary": "String substitution can evaluate untrusted expressions",
+      "details": "Historical advisory selected for the Faultline demonstration. Applicability depends on configuration and deployment conditions. Consult the original advisory before changing a production system. Fixed versions are historical range endpoints; they are not assurances that those versions are currently free of other vulnerabilities.",
+      "modified": "2024-01-01T00:00:00Z",
+      "withdrawn": null,
+      "severity": "CRITICAL",
+      "cvss": 9.8,
+      "affected": [
+        {
+          "purl": "pkg:maven/org.apache.commons/commons-text",
+          "name": "org.apache.commons:commons-text",
+          "ecosystem": "Maven",
+          "fixed": [
+            "1.10.0"
+          ]
+        }
+      ],
+      "references": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2022-42889",
+        "https://osv.dev/vulnerability/CVE-2022-42889"
+      ]
+    },
+    {
+      "id": "CVE-2022-1471",
+      "aliases": [],
+      "summary": "Unsafe deserialization through the default SnakeYAML constructor",
+      "details": "Historical advisory selected for the Faultline demonstration. Applicability depends on configuration and deployment conditions. Consult the original advisory before changing a production system. Fixed versions are historical range endpoints; they are not assurances that those versions are currently free of other vulnerabilities.",
+      "modified": "2024-01-01T00:00:00Z",
+      "withdrawn": null,
+      "severity": "CRITICAL",
+      "cvss": 9.8,
+      "affected": [
+        {
+          "purl": "pkg:maven/org.yaml/snakeyaml",
+          "name": "org.yaml:snakeyaml",
+          "ecosystem": "Maven",
+          "fixed": [
+            "2.0"
+          ]
+        }
+      ],
+      "references": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2022-1471",
+        "https://osv.dev/vulnerability/CVE-2022-1471"
+      ]
+    },
+    {
+      "id": "CVE-2020-36518",
+      "aliases": [],
+      "summary": "Deeply nested input can exhaust resources in Jackson databind",
+      "details": "Historical advisory selected for the Faultline demonstration. Applicability depends on configuration and deployment conditions. Consult the original advisory before changing a production system. Fixed versions are historical range endpoints; they are not assurances that those versions are currently free of other vulnerabilities.",
+      "modified": "2024-01-01T00:00:00Z",
+      "withdrawn": null,
+      "severity": "HIGH",
+      "cvss": 7.5,
+      "affected": [
+        {
+          "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-databind",
+          "name": "com.fasterxml.jackson.core:jackson-databind",
+          "ecosystem": "Maven",
+          "fixed": [
+            "2.13.2.1",
+            "2.12.6.1"
+          ]
+        }
+      ],
+      "references": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2020-36518",
+        "https://osv.dev/vulnerability/CVE-2020-36518"
+      ]
+    }
+  ],
+  "kev": {
+    "status": "ok",
+    "entries": [
+      {
+        "cveID": "CVE-2021-44228",
+        "dateAdded": "2021-12-10",
+        "dueDate": "2021-12-24",
+        "requiredAction": "Consult the vendor advisory and apply appropriate updates or mitigations."
+      },
+      {
+        "cveID": "CVE-2021-45046",
+        "dateAdded": "2021-12-17",
+        "dueDate": "2021-12-24",
+        "requiredAction": "Consult the vendor advisory and apply appropriate updates or mitigations."
+      },
+      {
+        "cveID": "CVE-2022-22965",
+        "dateAdded": "2022-04-04",
+        "dueDate": "2022-04-25",
+        "requiredAction": "Consult the vendor advisory and apply appropriate updates or mitigations."
+      }
+    ]
+  },
+  "epss": {
+    "status": "ok",
+    "entries": [
+      {
+        "cve": "CVE-2021-44228",
+        "epss": 0.975,
+        "percentile": 0.999,
+        "date": "2025-01-15"
+      },
+      {
+        "cve": "CVE-2021-45046",
+        "epss": 0.91,
+        "percentile": 0.999,
+        "date": "2025-01-15"
+      },
+      {
+        "cve": "CVE-2022-22965",
+        "epss": 0.941,
+        "percentile": 0.999,
+        "date": "2025-01-15"
+      },
+      {
+        "cve": "CVE-2022-42889",
+        "epss": 0.72,
+        "percentile": 0.97,
+        "date": "2025-01-15"
+      },
+      {
+        "cve": "CVE-2022-1471",
+        "epss": 0.08,
+        "percentile": 0.97,
+        "date": "2025-01-15"
+      },
+      {
+        "cve": "CVE-2020-36518",
+        "epss": 0.045,
+        "percentile": 0.97,
+        "date": "2025-01-15"
+      }
+    ]
+  },
+  "warnings": [
+    "This is a deliberately vulnerable, illustrative dependency graph. No vulnerable software is installed.",
+    "Advisory descriptions are curated summaries. Demo KEV metadata and EPSS probabilities are illustrative historical fixtures; use live intelligence for operational decisions."
+  ]
+}

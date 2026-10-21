@@ -1,0 +1,25 @@
+{
+  "name": "faultline-workbench",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Evidence-led, local-first software dependency vulnerability triage.",
+  "type": "module",
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "scripts": {
+    "build": "tsc && node scripts/build.mjs",
+    "start": "node dist/src/server.js",
+    "dev": "npm run build && npm start",
+    "test": "tsc && node --test dist/test/*.test.js",
+    "check": "tsc --noEmit",
+    "demo": "node dist/src/cli.js analyze examples/harbor.cdx.json --evidence examples/demo-evidence.json",
+    "cli": "node dist/src/cli.js"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.0",
+    "prettier": "^3.6.2",
+    "typescript": "^5.9.3"
+  },
+  "license": "MIT"
+}

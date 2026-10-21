@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="430" viewBox="0 0 1400 430" role="img" aria-label="Faultline. Find the fracture. Follow the evidence.">
+<defs><pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".7" fill="#4d5b4e"/></pattern></defs>
+<rect width="1400" height="430" fill="#26302c"/><rect x="810" width="590" height="430" fill="url(#grid)"/>
+<g fill="none" stroke="#6d7b60" stroke-width="1.3"><path d="M860 221C1000 221 1000 85 1120 85s120 40 200 40M860 221C1000 221 1000 180 1120 180s120-55 200-55M860 221C1000 221 1000 290 1120 290s120-45 200-45M860 221C1000 221 1000 365 1120 365s120-120 200-120"/></g>
+<path d="M860 221C1000 221 1000 180 1120 180s120 40 200 65" fill="none" stroke="#de7b56" stroke-width="2"/>
+<g fill="#9eaf87" stroke="#26302c" stroke-width="4"><circle cx="1120" cy="85" r="7"/><circle cx="1120" cy="290" r="7"/><circle cx="1120" cy="365" r="7"/><circle cx="1320" cy="125" r="7"/></g>
+<g fill="#e08b65" stroke="#26302c" stroke-width="4"><circle cx="1120" cy="180" r="10"/><circle cx="1320" cy="245" r="10"/></g><circle cx="860" cy="221" r="13" fill="#e4e9a5"/>
+<path d="M70 104V54h45M70 77h28" stroke="#e4e9a5" stroke-width="4" fill="none"/><path d="m99 45-12 31 19 6-12 32" stroke="#e08b65" stroke-width="4" fill="none"/>
+<text x="137" y="92" fill="#f3f1e9" font-family="Arial,sans-serif" font-size="38" font-weight="700" letter-spacing="6">FAULTLINE</text>
+<text x="70" y="160" fill="#b2beaa" font-family="Consolas,monospace" font-size="12" letter-spacing="3">DEPENDENCY INTELLIGENCE / EVIDENCE FIRST</text>
+<text x="67" y="235" fill="#f3f1e9" font-family="Georgia,serif" font-size="55">Find the fracture.</text><text x="67" y="302" fill="#e4e9a5" font-family="Georgia,serif" font-size="55">Follow the evidence.</text>
+<path d="M70 353h620" stroke="#59664f"/><text x="70" y="387" fill="#a5b19c" font-family="Consolas,monospace" font-size="11" letter-spacing="1.6">LOCAL-FIRST · EXPLAINABLE TRIAGE · OPEN SOURCE</text>
+<text x="884" y="407" fill="#9aa98f" font-family="Consolas,monospace" font-size="10" letter-spacing="1.2">A CLEARER VIEW OF WHAT YOUR SOFTWARE DEPENDS ON.</text>
+</svg>
